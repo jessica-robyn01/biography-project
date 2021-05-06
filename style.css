@@ -2,7 +2,7 @@ header {
   background-image: url("queen/fmback.png");
   background-size: cover;
   background-position: center;
-  height: 120vh;
+  height: 100vh;
   background-repeat: no-repeat;
   justify-content: space-between;
   align-items: center;
@@ -10,14 +10,13 @@ header {
 }
 
 .fm {
+  height:100vh;
   color: #9d1215;
-  float: left;
   font-family: "Cinzel", serif;
   text-align:center;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 20%;
   font-size:36pt;
 }
 
@@ -142,8 +141,6 @@ container h1 {
   font-weight: 400;
   font-size: 11pt;
   width: 500px;
-  justify-content: space-between;
-  float: left;
   margin: 10px;
   margin-top: 30px;
 }
