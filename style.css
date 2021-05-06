@@ -1,5 +1,5 @@
 header {
-  background-image: url("https://assets.codepen.io/5660828/fredddie.png");
+  background-image: url("queen/fmback.png");
   background-size: cover;
   background-position: center;
   height: 120vh;
@@ -17,11 +17,9 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 2%;
   margin-top: 20%;
   font-size:36pt;
 }
-
 
 h1 {
   margin: 0;
