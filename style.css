@@ -1,9 +1,234 @@
-body{
-    background: #333;
-    color: white;
+header {
+  background-image: url("https://assets.codepen.io/5660828/fredddie.png");
+  background-size: cover;
+  background-position: center;
+  height: 120vh;
+  background-repeat: no-repeat;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
 }
 
-.img{
-    width: 100px;
-    height: 100px;
+.fm {
+  color: #9d1215;
+  float: left;
+  font-family: "Cinzel", serif;
+  text-align:center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2%;
+  margin-top: 20%;
+  font-size:36pt;
+}
+
+
+h1 {
+  margin: 0;
+}
+
+nav {
+  padding: 10px;
+  text-align: right;
+}
+
+nav input {
+  float: left;
+  margin: 28px;
+  font-family: eurostile, sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  font-style: normal;
+  color: white;
+  background-color: #031217;
+  border-color: white;
+  border-radius: 6px;
+  width: 40vh;
+}
+
+ul li {
+  list-style-type: none;
+  padding: 10px 5px;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-family: eurostile, sans-serif;
+  font-weight: 400;
+  font-size: 16pt;
+  font-style: normal;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 5px;
+}
+
+li a:hover {
+  color: #9d1215;
+}
+
+section {
+  justify-content: center;
+  display: flex;
+}
+
+.disc h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32pt;
+}
+
+.disc {
+  background-color: #fafafa;
+  height: 85vh;
+  text-align: center;
+}
+
+container h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32pt;
+  text-align: center;
+}
+
+.card {
+  padding: 15px;
+}
+
+.card p {
+  background-color: black;
+  color: white;
+  width: 33vh;
+  padding: 5px;
+  text-align: center;
+  border-radius: 4px;
+  font-family: eurostile, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  font-style: normal;
+  line-height: 17px;
+}
+
+.card img {
+  height: 35vh;
+}
+
+.arrow {
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  margin: 13px;
+  background-color: #9d1215;
+  color: white;
+  font-size: 40px;
+  border: none;
+}
+
+.arrow:hover {
+  background-color: #660000;
+}
+
+.life {
+  background-image: url("https://assets.codepen.io/5660828/life.png");
+  background-size: cover;
+  justify-content: center;
+  height: 85vh;
+  display: flex;
+}
+
+.life h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32pt;
+}
+
+.life p {
+  font-family: eurostile, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  width: 500px;
+  justify-content: space-between;
+  float: left;
+  margin: 10px;
+  margin-top: 30px;
+}
+
+.life img {
+  height: 63vh;
+  padding: 10px;
+  padding-top: 30px;
+  margin-left: 50px;
+}
+
+.lifebutton {
+  width: 135px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 3px 4px #bebebe;
+  font-family: "Cinzel", serif;
+}
+
+button:hover {
+  background: #9d1215;
+  color: white;
+}
+
+.intcards {
+  text-align: center;
+  background-image: url("https://assets.codepen.io/5660828/Image+3.jpg");
+  background-size: cover;
+  height: 255vh;
+  padding-bottom: 40px;
+}
+
+.intcards h1 {
+  font-family: "Cedarville Cursive", cursive;
+  font-size: 32pt;
+  color: white;
+}
+
+.card2 h2 {
+  font-family: "Cinzel", serif;
+  font-size: 15pt;
+}
+
+.card2 {
+  background-color: #dddddd;
+  padding: 1px;
+  margin: 15px auto;
+  border-radius: 10px;
+  width: 120vh;
+}
+
+.intbutton {
+  padding: 8px;
+  width: 135px;
+  height: 35px;
+  border-radius: 6px;
+  border: none;
+  background-color: white;
+  box-shadow: 1px 3px 4px #bebebe;
+  margin: 24px;
+  font-family: "Cinzel", serif;
+}
+
+.intbutton:hover {
+  background: #9d1215;
+  color: white;
+}
+
+footer img {
+  height: 8vh;
+  padding: 15px;
+}
+
+footer {
+  float: left;
+  background-color: #031217;
+  color: white;
+  font-family: eurostile, sans-serif;
+  font-weight: 400;
+  font-size: 11pt;
+  text-align: center;
+  width: 100%;
+  line-height: 20px;
 }
