@@ -125,7 +125,7 @@ container h1 {
 }
 
 .life {
-  background-image: url("https://assets.codepen.io/5660828/life.png");
+  background-image: url("queen/life.png");
   background-size: cover;
   justify-content: center;
   height: 85vh;
@@ -172,7 +172,7 @@ button:hover {
 
 .intcards {
   text-align: center;
-  background-image: url("https://assets.codepen.io/5660828/Image+3.jpg");
+  background-image: url("queen/Image3.jpg");
   background-size: cover;
   height: 255vh;
   padding-bottom: 40px;
